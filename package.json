@@ -1,0 +1,40 @@
+{
+  "name": "solid-immer",
+  "version": "0.1.0",
+  "description": "Use immer with Solidjs",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --sourcemap --format esm,cjs"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myWsq/solid-immer.git"
+  },
+  "keywords": [
+    "immer",
+    "solid",
+    "solidjs",
+    "signal"
+  ],
+  "author": "myWsq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myWsq/solid-immer/issues"
+  },
+  "homepage": "https://github.com/myWsq/solid-immer#readme",
+  "peerDependencies": {
+    "immer": ">=2.0.0",
+    "solid-js": "^1.3.12"
+  },
+  "devDependencies": {
+    "immer": "^9.0.12",
+    "solid-js": "^1.3.12",
+    "tsup": "^5.12.1",
+    "typescript": "^4.6.2"
+  }
+}
